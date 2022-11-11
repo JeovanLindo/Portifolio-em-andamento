@@ -1,162 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<!-- Link css -->
-    <link rel="stylesheet" href="css/style.css">
-<!-- Link css -->
-
-<!-- Link js -->
-    <script src="javascript.js"></script>
-<!-- Link js -->
-    <link rel="shortcut icon" href="assets/favicon/logoico.ico" type="image/x-icon">
+<!-- links -->    
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script defer src="script/script.js"></script>
+<!-- links -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeovan Lindo</title>
+    <title>Portifólio</title>
+<!-- seo -->
+    
+<!-- seo -->   
 </head>
 <body>
- 
 
-<!-- cabeçalho -->    
-<header>
+    <header id="header-principal">
+        <div id="logo">
+            <h1><strong>Jeovan</strong>Lindo</h1>
+        </div><!-- logo -->
 
-    <div id="menu">
-        ...
-    </div><!-- menu -->
+       
+        <button id="botao-mobile">
+            <div id="hamburguer"></div>
+        </button><!-- botao-mobile -->
+        
 
-</header>
-<!-- //--- cabeçalho ---// -->
+        <nav id="nav-principal">
+            <ul id="menu-principal">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li id="idioma"><button id="botao-idioma">
+                    <p>Idioma</p><div id="arrow"></div></button>
 
+                    <div id="linguas">
+                        <p>portugûes (pt-br)</p>
+                        <p>English</p>
+                    </div><!-- linguas -->
+                </li><!-- idioma -->
+            </ul><!-- menu-principal -->
+        </nav><!-- nav-principal -->
+    </header><!-- header-principal -->
+    
+    <main>
+        <section id="resumo">
+            <div id="container-resumo">
+                
+                <div id="texto-resumo">
+                    <div id="escrita-resumo">
+                        <h1>oi, me chamo Jeovan</h1>
+                        <p>_Tenho apenas 19 anos, sempre amei a área de design e visual, desde novo faço muitas montagens no photoshop e peguei uma facilidade grande, hoje estudo programação e como esperado eu gosto mais do Front-end, tenho certeza que eu posso ser muito útil. </p>
+                    </div><!-- escrita-resumo -->
+                    <div id="botao-resumo">
+                        <button><p>Me chame aqui!</p></button>
+                    </div><!-- botao-resumo -->
+                </div><!-- texto-resumo -->
 
+                <div id="foto-resumo">
 
-<!-- corpo -->
-<main>
-    <section id="principal" >
-        <div id="logonome" >
-            <div id="logo-logonome">
-                <img src="assets/logo/logo.png" alt="imagem da logo do designer Jeovan Lindo, que consiste na silhueta do planeta saturno">
-            </div><!-- logo-logonome -->
+                </div><!-- foto-resumo -->
 
-            <div id="text-logonome">
-                <h1>Jeovan Lindo</h1>
-            </div><!-- text-logonome -->
+            </div><!-- container-resumo -->
+        </section>
 
-            <div id="arrow-logonome" > 
-                <img src="assets/icons/arrow-down.svg" alt="Ícone de uma seta para beixo">
-            </div><!-- arrow-logonome -->
-        </div><!-- logonome -->
-    </section><!-- principal -->
+        <section id="sobre" >
+            <header id="header-sobre">
+                <nav id="nav-sobre" >
+                    <ul id="menu-sobre" >
+                        <li><a href="#">Sobre mim</a></li>
+                        <li><a href="#">Habilidades</a></li>
+                        <li><a href="#">Trabalhos</a></li>
+                    </ul> <!-- menu-sobre --> 
+                </nav><!-- nav-sobre -->
+            </header><!-- header-sobre -->
+            <div id="container-sobre">
+                <div id="foto-sobre">
 
-    <section id="sobremin" >
-        <div id="container-sobremim">
-            <div id="img-sobremim">
-                <img src="assets/images/eu astronauta - png.png" alt="">
-            </div><!-- img-sobremim -->
-            <div id="text-sobremim">
-                <h1>SOBRE MIM</h1>
-                    <div id="parag-sobremim">
+                </div><!-- foto-sobre -->
+                <div id="texto-sobre">
+                    <h1>SOBRE MIM</h1>
+                    <div id="paragrafos-sobre">
+
                         <p>Olá, me chamo Jeovan Lindo, tenho apenas 19 anos, sou desenvolvedor de sites, designer, designer de sites e designer de logos.</p>
+
                         <p>Amo desenvolver a parte visual dos meus projetos e deixá-los o mais agradável possível.</p>
-                        
+
                         <p>Atualmente, faço faculdade de <i>Análise e desenvolvimento de sistemas</i> cursos de <i>front-end, back-end, design e marketing.</i></p>
-                    </div><!-- parag-sobremim -->
 
-                <button>
-                    Me chame aqui !!
-                </button>
-            </div><!-- text-sobremim -->
-        </div><!-- container-sobremim -->
-    </section><!-- sobremim -->
+                    </div><!-- paragrafos-sobre -->
 
-    <section id="trabalhos" >
-        <div id="container-trabalhos">
-            <div id="text-trabalhos">
-                <h1>TRABALHOS</h1>
-            </div><!-- text-trabalhos -->
-            <div id="img-trabalhos">
+                    <div id="botao-sobre">
+                        <button><p>Me interessei</p></button>
+                    </div><!-- botao-sobre -->
+                </div><!-- texto-sobre -->
+            </div><!-- container-sobre -->
+        </section><!-- sobre -->
+    </main>
 
-            </div><!-- img-trabalhos -->
-        </div><!-- container-trabalhos -->
-    </section><!-- trabalhos -->
+    <footer>
+        <div id="container-footer">
+            <div id="titulo-footer">
+                <h1>CONTATOS</h1>
+            </div><!-- titulo-footer -->
 
-    <section id="habilidades" >
-        <div id="container-habilidades">
-            <div id="text-habilidades">
-                <h1>HABILIDADES</h1>
-            </div><!-- text-habilidades -->
-            <div id="img-habilidades">
-                <div id="html" class="skill" >
-                    <img src="assets/icons/html.svg" alt="Ícone do HTML">
-                    <p>HTML</p>
-                </div><!-- html -->
-                <div id="css" class="skill">
-                    <img src="assets/icons/css.svg" alt="Ícone da linguagem de estilos CSS">
-                    <p>CSS</p>
-                </div><!-- css -->
-                <div id="js" class="skill">
-                    <img src="assets/icons/js.svg" alt="Ícone da linguagem de programação JavaScript">
-                    <p>JavaScript</p>
-                </div><!-- js -->
-                <div id="git" class="skill">
-                    <img src="assets/icons/git.svg" alt="Ícone do software GIT">
-                    <p>GIT</p>
-                </div><!-- git -->
-                <div id="github" class="skill">
-                    <img src="assets/icons/github-purple.svg" alt="Ícone do GitHub">
-                    <p>GitHub</p>
-                </div><!-- github -->
-                <div id="design" class="skill">
-                    <img src="assets/icons/pencil-orange.svg" alt="Ícone de um lápis representando o Design">
-                    <p>Design</p>    
-                </div><!-- design -->
-            </div><!-- img-habilidades -->
-        </div><!-- container-habilidades -->
-    </section><!-- habilidades -->
-</main>
+            <div id="agradecimento">
+                <p>_Obrigado  por chegar até aqui e espero que tenha gostado, caso eu possa melhorar algo  ou queira me dar alguma dica por favor  não esqueça de entrar em contato, Agradeço desde já !!</p>
+            </div><!-- agradecimento -->
 
+            <div id="container-contatos">
+                <div id="contatos">
+                    <h1>Contatos</h1>
+                    <ul id="menu-contatos" >
+                        <li><a href="#">+55(22)99619-1412</a></li>
+                        <li><a href="#">jeovanlindojr@gmail.com</a></li>
+                    </ul>
+                </div><!-- contatos -->
 
-<!-- //--- corpo ---// -->
+                <div id="redes-sociais">
+                    <h1>Redes sociais</h1>
+                    <ul id="menu-redes-sociais" >
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                    </ul><!-- menu-redes-sociais -->
+                </div><!-- redes-sociais -->
+            </div><!-- container-contatos -->
+        </div><!-- container-footer -->
 
+        <div id="madeby">
+            <h3>Site desenvolvido por : <a href="#"><strong>Jeovan</strong>Lindo</a></h3>
+        </div><!-- madeby -->
+    </footer>
 
-
-
-<!-- rodapé -->
-<footer>
-    <div id="logo-footer">
-        <img src="assets/logo/logo.png" alt="imagem da logo do designer Jeovan Lindo, que consiste na silhueta do planeta saturno">
-    </div><!-- logo-footer -->
-    
-    <div id="infos" >
-        <div id="contatos">
-            <h1>CONTATOS</h1>
-
-            <div id="text-contatos">
-                <p>+55 22 99619-1412</p>
-                <p>jeovanlindojr@gmail.com</p>
-            </div><!-- text-contatos -->
-        </div><!-- contatos -->
-    
-        <div id="sociais">
-            <h1>SOCIAL</h1>
-            <div id="text-social">
-                <div id="instagram" class="redes-sociais">
-                    <img src="assets/icons/footer/instagram.svg" alt="Ícone do instagram">
-                    <p>instagram</p>
-                </div><!-- instagram -->
-                <div id="linkedin" class="redes-sociais">
-                    <img src="assets/icons/footer/linkedin.svg" alt="Ícone do linkedin">
-                    <p>linkedin</p>
-                </div><!-- linkedin -->
-                <div id="facebook" class="redes-sociais">
-                    <img src="assets/icons/footer/facebook.svg" alt="Ícone do facebook">
-                    <p>facebook</p>
-                </div><!-- facebook -->
-                <div id="github" class="redes-sociais">
-                    <img src="assets/icons/footer/github.svg" alt="Ícone do github">
-                    <p>github</p>
-                </div><!-- github -->
-            </div><!-- text-social -->
-        </div><!-- sociais -->
-    </div><!-- infos -->                 
 </body>
 </html>
